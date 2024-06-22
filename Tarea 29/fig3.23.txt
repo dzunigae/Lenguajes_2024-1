@@ -29,7 +29,7 @@ else	{return(ELSE);}
 
 %%
 
-int installID0 {/* function to install the lexeme, whose
+int installID {/* function to install the lexeme, whose
 		   first character is pointed to by yytext,
 		   and whose length is yyleng, into the
 		   symbol table and return a pointer
